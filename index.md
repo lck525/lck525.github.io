@@ -1,5 +1,3 @@
-# Repository
-# Lets make this change
 <!doctype html>
 <html>
 <head>
