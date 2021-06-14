@@ -3,6 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>HTML</title>
+  <style>
+    header {
+      background-color: yellow;
+      font-size: 30;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 24;
+      text-align: center;
+    }
+    .highlight, #big {
+      font-size:40;
+        opacity: 0.5;
+    }
+    </style>
 </head>
 <body>
   <header> HTML.org 
@@ -15,7 +30,7 @@
   
   <section>
     table of content
-    <a href="https://github.com" target="_blank" title="github">
+    <a id="big" href="https://github.com" target="_blank" title="github">
       <div> Github </div>
     </a>
     <a href="#section 1">
@@ -26,15 +41,15 @@
     </a>
     
   <section name="section 1">
-     What is HTML (#the answer is quite obvious)
+    <h2> What is HTML (#the answer is quite obvious) </h2>
     <article> HTML stands for hyper-text xxx language </article>
-    <article> HTML is currently in 5.0 </article>
+    <article class="highlight"> HTML is currently in 5.0 </article>
   </section>
   
   <section id="section 2">
-    Difference  with CSS
+    <h2> Difference  with CSS </h2>
     <ol>
-      <li> different syntax</li>
+      <li class="highlight"> different syntax</li>
       <li> different layer in web application</li>
     </ol>
   </section>
